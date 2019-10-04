@@ -1,0 +1,16 @@
+{
+  "name": "serverless-node-message-app",
+  "version": "1.0.0",
+  "description": "A serverless demo messaging app",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arturo Estrada <arturo.estrada@ipointsystems.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "serverless-finch": "^2.4.3",
+    "twilio": "^3.35.1"
+  }
+}
